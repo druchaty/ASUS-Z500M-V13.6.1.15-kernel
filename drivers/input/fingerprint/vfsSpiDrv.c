@@ -23,8 +23,8 @@
 **
 */
 
-#include <vfsDrvIoctl.h>
-#include <vfsSpiDrv.h>
+#include "vfsDrvIoctl.h"
+#include "vfsSpiDrv.h"
 
 #include <linux/kernel.h>
 #include <linux/cdev.h>
@@ -39,7 +39,7 @@
 #endif /* CONFIG_COMPAT */
 #include <linux/of_gpio.h>
 #include <linux/regulator/consumer.h>
-#include <../../misc/mediatek/include/mt-plat/mt_boot_common.h>
+#include "../../misc/mediatek/include/mt-plat/mt_boot_common.h"
 
 #include "asus_fp_id.h"
 #define SYNA_FP '0'

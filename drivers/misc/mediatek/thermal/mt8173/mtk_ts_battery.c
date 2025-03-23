@@ -29,7 +29,7 @@
 #include "mt-plat/mtk_thermal_monitor.h"
 #include "mtk_thermal_typedefs.h"
 #include "mach/mt_thermal.h"
-#include <inc/tmp_battery.h>
+#include "inc/tmp_battery.h"
 #include <linux/uidgid.h>
 #include <linux/slab.h>
 #include <linux/reboot.h>

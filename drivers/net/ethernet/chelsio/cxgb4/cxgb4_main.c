@@ -70,7 +70,7 @@
 #include "cxgb4_dcb.h"
 #include "l2t.h"
 
-#include <../drivers/net/bonding/bonding.h>
+#include "../drivers/net/bonding/bonding.h"
 
 #ifdef DRV_VERSION
 #undef DRV_VERSION

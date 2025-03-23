@@ -60,9 +60,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <linux/sw_sync.h>
 #endif
 #else
-#include <../drivers/staging/android/sync.h>
+#include "../drivers/staging/android/sync.h"
 #ifndef CONFIG_SW_SYNC_USER
-#include <../drivers/staging/android/sw_sync.h>
+#include "../drivers/staging/android/sw_sync.h"
 #endif
 #endif
 

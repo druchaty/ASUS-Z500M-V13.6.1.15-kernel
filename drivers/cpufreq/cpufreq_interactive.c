@@ -33,7 +33,7 @@
 
 #ifdef CONFIG_ARCH_MT6755
 #include <asm/topology.h>
-#include <../misc/mediatek/base/power/mt6755/mt_cpufreq.h>
+#include "../misc/mediatek/base/power/mt6755/mt_cpufreq.h"
 unsigned int hispeed_freq_perf = 0;
 unsigned int min_sample_time_perf = 0;
 #endif

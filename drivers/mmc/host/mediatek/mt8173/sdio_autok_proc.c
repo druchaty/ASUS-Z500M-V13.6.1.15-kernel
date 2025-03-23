@@ -5,7 +5,7 @@
 #include <linux/mmc/card.h>
 #include <linux/mmc/host.h>
 #include <linux/mmc/sdio_func.h>
-#include <../drivers/mmc/core/core.h>
+#include "../drivers/mmc/core/core.h"
 #include "mt_sd.h"
 #include "sdio_autok.h"
 /* #include "autok.h" */

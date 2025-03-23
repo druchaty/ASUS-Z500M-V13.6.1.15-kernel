@@ -1,6 +1,7 @@
 # drivers/dispsys
 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/video/$(MTK_PLATFORM)/videox/ \
+             -I$(srctree)/drivers/misc/mediatek/video/$(MTK_PLATFORM)/dispsys/ \
              -I$(srctree)/drivers/misc/mediatek/ext_disp/$(MTK_PLATFORM) \
              -I$(srctree)/drivers/misc/mediatek/cmdq/hv1/$(MTK_PLATFORM)/ \
              -I$(srctree)/drivers/misc/mediatek/cmdq/hv1/ \
@@ -8,7 +9,7 @@ ccflags-y += -I$(srctree)/drivers/misc/mediatek/video/$(MTK_PLATFORM)/videox/ \
              -I$(srctree)/drivers/misc/mediatek/m4u/$(MTK_PLATFORM)/ \
              -I$(srctree)/drivers/misc/mediatek/lcm/inc \
              -I$(srctree)/drivers/misc/mediatek/leds/ \
-             -I$(srctree)/drivers/misc/mediatek/leds/mt8173/
+             -I$(srctree)/drivers/misc/mediatek/leds/$(MTK_PLATFORM)/
 ifeq ($(CONFIG_MTK_SEC_VIDEO_PATH_SUPPORT),y)
 #cmdq driver header need followings for secure case
 ccflags-y += -I$(srctree)/include

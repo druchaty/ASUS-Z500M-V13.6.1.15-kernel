@@ -27,7 +27,7 @@
 
 #include <linux/version.h>
 
-#include <../drivers/staging/android/sw_sync.h>
+#include "../drivers/staging/android/sw_sync.h"
 
 /*
  * sync_timeline, sync_fence data structure

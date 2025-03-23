@@ -32,7 +32,7 @@
 #include <linux/poll.h>
 #include "asus_fp_id.h"
 #include "asus_navigation.h"
-#include <../../misc/mediatek/include/mt-plat/mt_boot_common.h>
+#include "../../misc/mediatek/include/mt-plat/mt_boot_common.h"
 
 #define VERSION_LOG	"ELAN FINGER PRINT V1.5"
 #define SPI_MAX_SPEED		10000000	/* chagne by customer */

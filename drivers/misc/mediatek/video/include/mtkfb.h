@@ -301,7 +301,7 @@ void mtkfb_clear_lcm(void);
 #include <linux/interrupt.h>
 #include <linux/workqueue.h>
 #include <linux/version.h>
-#include <../drivers/staging/android/sw_sync.h>
+#include "../drivers/staging/android/sw_sync.h"
 
 
 #define MTKFB_DRIVER "mtkfb"

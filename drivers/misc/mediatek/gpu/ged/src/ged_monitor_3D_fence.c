@@ -7,7 +7,7 @@
 #if (LINUX_VERSION_CODE < KERNEL_VERSION(3,10,0))
 #include <linux/sync.h>
 #else
-#include <../drivers/staging/android/sync.h>
+#include "../drivers/staging/android/sync.h"
 #endif
 
 #include <mt-plat/mtk_gpu_utility.h>

@@ -39,7 +39,7 @@
 #include <linux/switch.h>
 #include <linux/power_supply.h>
 #include <linux/wakelock.h>
-#include <../../../../../include/uapi/linux/input.h>
+#include "../../../../../include/uapi/linux/input.h"
 #include "tpd.h"
 #include "tpd_custom_fts.h"
 
