@@ -1,0 +1,50 @@
+# Build directories and files
+/out/
+build/
+obj/
+tmp/
+
+# Kernel build artifacts
+*.o
+*.ko
+*.mod
+*.cmd
+*.a
+*.so
+*.bak
+
+# Generated configuration files
+.config
+config-*
+
+# Logs and error reports
+*.log
+build.log
+**/build.log
+**/*.log
+
+# Temporary files created by the build system
+*~.swp
+.swp
+.swo
+.bak
+
+# Kernel module installation
+/lib/modules/
+
+# Compiler generated files
+*.d
+*.s
+
+# Miscellaneous build files
+.generated
+.install
+
+# Any custom paths
+/bin/
+.tmp/
+
+/arch/arm64/include/generated
+/arch/arm64/boot/dts/include/dt-bindings
+*.builtin
+*.order
